@@ -26,8 +26,8 @@
         "@ionic/storage": "2.0.1",
         "com.virtuoworks.cordova-plugin-canvascamera": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
         "cordova-android": "6.2.3",
-        "cordova-browser": "4.1.0",
-        "cordova-plugin-compat": "1.1.0",
+        "cordova-browser": "5.0.3",
+        "cordova-plugin-compat": "1.2.0",
         "cordova-plugin-console": "1.0.5",
         "cordova-plugin-device": "1.1.4",
         "cordova-plugin-splashscreen": "4.0.3",
@@ -42,6 +42,8 @@
     },
     "devDependencies": {
         "@ionic/app-scripts": "2.1.4",
+        "@types/cordova-plugin-canvascamera": "1.0.0",
+        "@types/jsqrcode": "1.0.1",
         "typescript": "2.3.4"
     },
     "description": "An Ionic project",
