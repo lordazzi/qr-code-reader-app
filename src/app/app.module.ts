@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { QrCodeModule } from './qrcode/qrcode.module';
+import { CameraModule } from './camera/camera.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { QrCodeModule } from './qrcode/qrcode.module';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    CameraModule,
     QrCodeModule
   ],
   bootstrap: [IonicApp],
