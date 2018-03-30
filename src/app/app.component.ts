@@ -31,7 +31,7 @@ export class MyApp {
       .subscribe(data => {
         alert(data);
       }, erro => {
-
+        console.error(erro);
       });
   }
 }
