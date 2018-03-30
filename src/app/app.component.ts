@@ -29,7 +29,7 @@ export class MyApp {
     this.qrCodeService
       .startReadding()
       .subscribe(data => {
-
+        alert(data);
       }, erro => {
 
       });
